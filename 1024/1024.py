@@ -49,3 +49,5 @@ if __name__ == '__main__':
             if res == 1024:
                 print(n_perm, o_perm)
 
+
+
