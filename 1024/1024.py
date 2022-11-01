@@ -38,7 +38,7 @@ def my_op(x, y, op):
 
 
 if __name__ == '__main__':
-    nums = [0,955,7,2,16,6,4,5,2,13,7,2,31,1,2,4,6,2,2,2,0]  # 填拥有的数字卡
+    nums = [0,955,7,2,16,6,,5,2,13,7,2,31,1,2,4,6,2,2,2,0]  # 填拥有的数字卡
     ops = [">>", "^", "&", "&", "^", "*"]  # 请填入拥有的符号卡
 
     from itertools import permutations
@@ -48,6 +48,3 @@ if __name__ == '__main__':
             res = calculate_res(n_perm, o_perm)
             if res == 1024:
                 print(n_perm, o_perm)
-
-
-
