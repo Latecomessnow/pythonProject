@@ -11,7 +11,6 @@ str3 = '''"hello" "Python"'''
 print(str3)
 print(type(str3))
 
-
 print(len(str))
 print(len(str3))
 print(len(str + " " + str2))
